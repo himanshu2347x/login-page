@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #563d7c;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 40px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://wallpapercave.com/wp/wp8108040.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-panel h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.left-panel p {
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.signup-btn {
+  background: #ff4081;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: #f50057;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo img {
+    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.tag{
+margin-top: -2rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+     
+};
+
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-bottom-color: #3f51b5;
+}
+
+.login-btn {
+  background: #3f51b5;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #303f9f;
+}
+
+.forgot-password {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  color: #3f51b5;
+}
